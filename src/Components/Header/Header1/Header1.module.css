@@ -5,7 +5,7 @@
 
 }
 
-.header1 .fa-solid {
+.header1 .sideIcon {
     width: 20%;
     display: inline-block;
 }
@@ -14,4 +14,18 @@
     width: 80%;
     display: inline-block;
     margin-left: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .header1 {
+        width: 20%;
+    }
+
+    .header1 img {
+        width: 110%;
+    }
+
+    .header1 .sideIcon {
+        display: none;
+    }
 }
