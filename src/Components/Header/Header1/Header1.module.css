@@ -1,0 +1,17 @@
+.header1 {
+    width: 12%;
+    display: flex;
+    align-items: center;
+
+}
+
+.header1 .fa-solid {
+    width: 20%;
+    display: inline-block;
+}
+
+.header1 img {
+    width: 80%;
+    display: inline-block;
+    margin-left: 0;
+}
